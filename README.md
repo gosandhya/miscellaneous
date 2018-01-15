@@ -1,10 +1,11 @@
-# my github page
+# My GitHub Page
 
 
 This Github repository contains small projects that I have been doing as part of my class work as well as personal interest.
 
 # Currently added projects
 - Bitcoin Historical Data Analysis
+  - This project 
 - Final Year Project - Controllo
 - Voice Enabled Flash Cards
 - Closest Pair Algorithm
