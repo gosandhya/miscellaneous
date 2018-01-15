@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.gms.samples.vision.face.facetracker"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <permission
+        android:name="android.permission.BLUETOOTH"
+        android:label="BLUETOOTH" />
+    <permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.TRANSMIT_IR"
+        android:required="false" />
+
+    <uses-feature android:name="android.hardware.consumerir" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="Controllo"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity
+            android:name=".FirstScreen"
+            android:icon="@drawable/icon"
+            android:label="Face Tracker"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        -->
+        <activity
+            android:name=".FirstScreen"
+            android:label="Instructions" />
+        <activity android:name=".Instruction_Controller" />
+        <activity android:name=".FaceTrackerActivity" />
+        <activity android:name=".bridge" />
+
+        <activity
+            android:name=".DbAct"
+            android:label="Database"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SetContact"
+            android:label="Emergency Contact"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Chooser" />
+        <activity
+            android:name=".NavigationActivity"
+            android:label="Camera"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MenuList" />
+        <activity android:name=".Demo_Controller" />
+        <activity
+            android:name=".About"
+            android:label="About Controllo"
+            android:theme="@style/AppTheme" />
+        <activity
+
+            android:name=".GestureExpression"
+            android:label="Gesture Expression"
+            android:theme="@style/AppTheme"
+            />
+        <activity
+            android:name=".GestureTable"
+            android:label="Gesture Table"
+            android:theme="@style/AppTheme"
+            />
+    </application>
+
+</manifest>
