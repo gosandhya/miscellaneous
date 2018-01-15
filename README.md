@@ -19,10 +19,17 @@ This Github repository contains small projects that I have been doing as part of
 - Why I am interested in Cryptocurrency
 - Global Alarm Prototype
 
-# Programming Languages and Frameworks
-- Java [Eclipse and IntelliJ] - 
-- Python [Jupyter Notebook]
-- C [Sublime Editor]
+# Programming Languages
+- Java - Object-orinted, class-based and concurrent programming language. 
+- Python - Interpreted high-level, general purpose programming language.
+- C - Imperative language supporting  structured programming.
+- MATLAB - High level scripting language operating on whole matrices and arrays.
 
+#Tools
+- Eclipse -  Integrated development environment, the most widely used Java IDE.
+- Intellij - Java integrated development environment developed by JetBrains. 
+- Jupyter Notebook - An open-source web application allowing us to create and share documents that contain live code, equations, visualizations and narrative text.
+- MATLAB - A multi-paradigm numerical computing environment.
+- Sublime Editor
 # Development
 Want to contribute? Great! Get the code and make it better. That is what open source means!
