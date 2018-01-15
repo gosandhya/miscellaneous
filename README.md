@@ -5,10 +5,17 @@ This Github repository contains small projects that I have been doing as part of
 
 # Currently added projects
 - Bitcoin Historical Data Analysis
-  - This project 
+  - This project is class project for Data Science class during my Graduate School. As part of the project, I have tried to analyze the past cryptocurrency data to find out the patterns in price changes. The folder contains a python notebook file, HTML file as well as report that would illustrate the results of my analysis.   
 - Final Year Project - Controllo
+  - This project is a group project during my undergrad. The project comprises of an android application and microcontroller to help motor disabled people in controlling the room appliances using their facial gestures.
+This project got third position out of 18 projects.
+
 - Voice Enabled Flash Cards
+  - This is a personal project. The idea was to build an android application that would enable users to make flash cards using their speech.
+
 - Closest Pair Algorithm
+  - Cloest Pair Algorithm is a Brute-Force algorithm that computes the distances between all pairs of points and then pick the pair with the smallest distance. I have implemented this algorithm as part of my classwork.
+
 - Karatsuba Multiplication
 - Twitter Sentiment Analysis
 - Page Replacement Algorithms
