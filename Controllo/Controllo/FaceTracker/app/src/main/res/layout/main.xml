@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <!-- <Button
+        android:id="@+id/btn1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+
+        android:background="@drawable/menuicon"
+        android:onClick="emergencyCont"
+     /> -->
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/menuwhiteicon"
+        android:onClick="menuList"
+        android:backgroundTint="#47a60c" />
+
+
+
+    <com.google.android.gms.samples.vision.face.facetracker.ui.camera.CameraSourcePreview
+      android:id="@+id/preview"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:onClick="gotoBack">
+
+  </com.google.android.gms.samples.vision.face.facetracker.ui.camera.CameraSourcePreview>
+
+    <com.google.android.gms.samples.vision.face.facetracker.ui.camera.GraphicOverlay
+        android:id="@+id/faceOverlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:focusable="true" />
+
+</RelativeLayout>
