@@ -5,7 +5,7 @@ This Github repository contains small projects that I have been doing as part of
 
 # Currently added projects
 - Bitcoin Historical Data Analysis
-  - This project is class project for Data Science class during my Graduate School. As part of the project, I have tried to analyze the past cryptocurrency data to find out the patterns in price changes. The folder contains a python notebook file, HTML file as well as report that would illustrate the results of my analysis.   
+  - In this project, I am analyzing the Bitcoin price dataset to find out the patterns in price changes. The dataset (https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory) is available online on Kaggle. The analysis is done in Python using Jupyter notebook. In order to run this project, you will need to install Jupyter Notebook: http://jupyter.org/ and run .ipynb file available on the Github. The folder contains a python notebook file, HTML file as well as report that would illustrate the results of my analysis.   
 - Final Year Project - Controllo
   - This project is a group project during my undergrad. The project comprises of an android application and microcontroller to help motor disabled people in controlling the room appliances using their facial gestures.
 This project got third position out of 18 projects.
