@@ -7,11 +7,10 @@ This Github repository contains small projects that I have been doing as part of
 - Bitcoin Historical Data Analysis
   - In this project, I am analyzing the Bitcoin price dataset to find out the patterns in price changes. The dataset (https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory) is available online on Kaggle. The analysis is done in Python using Jupyter notebook. In order to run this project, you will need to install Jupyter Notebook: http://jupyter.org/ and run .ipynb file available on the Github. The folder contains a python notebook file, HTML file as well as report that would illustrate the results of my analysis.   
 - Final Year Project - Controllo
-  - This project is a group project during my undergrad. The project comprises of an android application and microcontroller to help motor disabled people in controlling the room appliances using their facial gestures.
-This project got third position out of 18 projects.
+  - This is a group project during final year during my undergradute.  The project comprises of an android application and microcontroller Arduino to help motor disabled people in controlling the room appliances using their facial gestures. In order to run the project, you will need to install Android Studio ( https://developer.android.com/studio/index.html) and have access to Arduino (https://www.arduino.cc/) The code for application and Arduino is available in the git repository along with documentation that would thoroughly explain the project.
 
 - Voice Enabled Flash Cards
-  - This is a personal project. The idea was to build an android application that would enable users to make flash cards using their speech.
+  - This is a personal project. The idea was to build an android application that would enable users to make flash cards using their speech. The project uses Android Studio that can be installed using this link: https://developer.android.com/studio/index.html
 
 - Closest Pair Algorithm
   - Closest Pair Algorithm is a Brute-Force algorithm that computes the distances between all pairs of points and then pick the pair with the smallest distance. I have implemented this algorithm as part of my classwork.
